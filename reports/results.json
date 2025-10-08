@@ -1,0 +1,278 @@
+{
+    "metrics": {
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 728,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "http_req_duration{expected_response:true}": {
+            "max": 1831.0317,
+            "p(90)": 274.51065,
+            "p(95)": 282.00004,
+            "p(99)": 1048.581629,
+            "avg": 288.2109109890114,
+            "min": 261.8943
+        },
+        "data_sent": {
+            "count": 241768,
+            "rate": 1982.3059076884526
+        },
+        "checks": {
+            "passes": 1456,
+            "fails": 1456,
+            "value": 0.5
+        },
+        "iterations": {
+            "count": 182,
+            "rate": 1.4922556963671718
+        },
+        "vus": {
+            "value": 2,
+            "min": 1,
+            "max": 10
+        },
+        "vus_max": {
+            "value": 10,
+            "min": 10,
+            "max": 10
+        },
+        "http_req_waiting": {
+            "max": 1296.8475,
+            "p(90)": 266.60609,
+            "p(95)": 269.91433,
+            "p(99)": 355.00784300000004,
+            "avg": 268.77402788461524,
+            "min": 260.5878
+        },
+        "http_req_connecting": {
+            "p(99)": 261.29997599999996,
+            "avg": 3.600299313186813,
+            "min": 0,
+            "max": 265.9996,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_reqs": {
+            "count": 728,
+            "rate": 5.969022785468687
+        },
+        "http_req_blocked": {
+            "avg": 7.596175824175823,
+            "min": 0,
+            "max": 619.5374,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 539.328841
+        },
+        "http_req_duration": {
+            "avg": 288.2109109890114,
+            "min": 261.8943,
+            "max": 1831.0317,
+            "p(90)": 274.51065,
+            "p(95)": 282.00004,
+            "p(99)": 1048.581629,
+            "thresholds": {
+                "p(95)<1000": false
+            }
+        },
+        "http_req_tls_handshaking": {
+            "p(99)": 275.257287,
+            "avg": 3.9882614010989017,
+            "min": 0,
+            "max": 353.5378,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_receiving": {
+            "p(90)": 7.970300000000006,
+            "p(95)": 11.296159999999997,
+            "p(99)": 784.05462,
+            "avg": 19.082561675824184,
+            "min": 0,
+            "max": 816.3298
+        },
+        "iteration_duration": {
+            "p(90)": 5120.7827,
+            "p(95)": 6587.503214999985,
+            "p(99)": 6912.737831,
+            "avg": 5189.570893956045,
+            "min": 5064.4583,
+            "max": 9883.9776
+        },
+        "group_duration": {
+            "avg": 1297.3885247252751,
+            "min": 1263.3695,
+            "max": 3211.2886,
+            "p(90)": 1276.76286,
+            "p(95)": 1288.21669,
+            "p(99)": 2591.77722
+        },
+        "http_req_sending": {
+            "avg": 0.35432142857142823,
+            "min": 0,
+            "max": 5.5543,
+            "p(90)": 0.5433800000000001,
+            "p(95)": 0.58183,
+            "p(99)": 0.692171
+        },
+        "data_received": {
+            "count": 110413569,
+            "rate": 905303.7214092294
+        }
+    },
+    "root_group": {
+        "checks": {},
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+                "🏠 Home Page": {
+                    "groups": {},
+                    "checks": {
+                            "Home Page - status 200": {
+                                "name": "Home Page - status 200",
+                                "path": "::🏠 Home Page::Home Page - status 200",
+                                "id": "2c5780c04f646c28997004b3951862b4",
+                                "passes": 182,
+                                "fails": 0
+                            },
+                            "Home Page - has title": {
+                                "name": "Home Page - has title",
+                                "path": "::🏠 Home Page::Home Page - has title",
+                                "id": "44b578d8fc879f1351bb68656cef6662",
+                                "passes": 182,
+                                "fails": 0
+                            },
+                            "Home Page - uses gzip or br": {
+                                "path": "::🏠 Home Page::Home Page - uses gzip or br",
+                                "id": "7d22fbebc92ce7d7f8a1ecd48be34f84",
+                                "passes": 0,
+                                "fails": 182,
+                                "name": "Home Page - uses gzip or br"
+                            },
+                            "Home Page - cache header present": {
+                                "name": "Home Page - cache header present",
+                                "path": "::🏠 Home Page::Home Page - cache header present",
+                                "id": "9f351479ee27f39fcc6583bad9e79a39",
+                                "passes": 0,
+                                "fails": 182
+                            }
+                        },
+                    "name": "🏠 Home Page",
+                    "path": "::🏠 Home Page",
+                    "id": "9f578ea58cb24a90be9959bfa475afcc"
+                },
+                "🏭 Facilities Page": {
+                    "name": "🏭 Facilities Page",
+                    "path": "::🏭 Facilities Page",
+                    "id": "b72f421f9125e81a7de72f52bacec999",
+                    "groups": {},
+                    "checks": {
+                            "Facilities Page - status 200": {
+                                "path": "::🏭 Facilities Page::Facilities Page - status 200",
+                                "id": "18aa236a3330474abd1700ac52a579b2",
+                                "passes": 182,
+                                "fails": 0,
+                                "name": "Facilities Page - status 200"
+                            },
+                            "Facilities Page - has title": {
+                                "path": "::🏭 Facilities Page::Facilities Page - has title",
+                                "id": "a6cbb61285188b4dc59c9294ed0980bd",
+                                "passes": 182,
+                                "fails": 0,
+                                "name": "Facilities Page - has title"
+                            },
+                            "Facilities Page - uses gzip or br": {
+                                "name": "Facilities Page - uses gzip or br",
+                                "path": "::🏭 Facilities Page::Facilities Page - uses gzip or br",
+                                "id": "e1c94df79f496ae7edd3db626aa19550",
+                                "passes": 0,
+                                "fails": 182
+                            },
+                            "Facilities Page - cache header present": {
+                                "fails": 182,
+                                "name": "Facilities Page - cache header present",
+                                "path": "::🏭 Facilities Page::Facilities Page - cache header present",
+                                "id": "45d205350d9a890f9326d4f5a939c60e",
+                                "passes": 0
+                            }
+                        }
+                },
+                "🍽️ Food & Beverage Page": {
+                    "checks": {
+                        "Food Page - status 200": {
+                            "name": "Food Page - status 200",
+                            "path": "::🍽️ Food & Beverage Page::Food Page - status 200",
+                            "id": "ffe48a8a79b11d167749a14e90b025db",
+                            "passes": 182,
+                            "fails": 0
+                        },
+                        "Food Page - has title": {
+                            "path": "::🍽️ Food & Beverage Page::Food Page - has title",
+                            "id": "09baa5f1b7c47bf56e19a8f6bb627788",
+                            "passes": 182,
+                            "fails": 0,
+                            "name": "Food Page - has title"
+                        },
+                        "Food Page - uses gzip or br": {
+                            "name": "Food Page - uses gzip or br",
+                            "path": "::🍽️ Food & Beverage Page::Food Page - uses gzip or br",
+                            "id": "8c05101cbb034745ac198504da15d6ed",
+                            "passes": 0,
+                            "fails": 182
+                        },
+                        "Food Page - cache header present": {
+                            "fails": 182,
+                            "name": "Food Page - cache header present",
+                            "path": "::🍽️ Food & Beverage Page::Food Page - cache header present",
+                            "id": "7c15b9644c2c91c7a4ef146fec7caf70",
+                            "passes": 0
+                        }
+                    },
+                    "name": "🍽️ Food & Beverage Page",
+                    "path": "::🍽️ Food & Beverage Page",
+                    "id": "5442b4f4b132429c5195473b21597d55",
+                    "groups": {}
+                },
+                "📞 Contact Us Page": {
+                    "name": "📞 Contact Us Page",
+                    "path": "::📞 Contact Us Page",
+                    "id": "69b7e59d1420d04270eaffd74c691b40",
+                    "groups": {},
+                    "checks": {
+                            "Contact Page - status 200": {
+                                "fails": 0,
+                                "name": "Contact Page - status 200",
+                                "path": "::📞 Contact Us Page::Contact Page - status 200",
+                                "id": "c8e64a970ec1a08d2ebbd3a6448af68e",
+                                "passes": 182
+                            },
+                            "Contact Page - has title": {
+                                "path": "::📞 Contact Us Page::Contact Page - has title",
+                                "id": "e8c4a685f89bc33165dcb8cb07c0f4a2",
+                                "passes": 182,
+                                "fails": 0,
+                                "name": "Contact Page - has title"
+                            },
+                            "Contact Page - uses gzip or br": {
+                                "id": "71487ac287a95c69497c927c74d99964",
+                                "passes": 0,
+                                "fails": 182,
+                                "name": "Contact Page - uses gzip or br",
+                                "path": "::📞 Contact Us Page::Contact Page - uses gzip or br"
+                            },
+                            "Contact Page - cache header present": {
+                                "path": "::📞 Contact Us Page::Contact Page - cache header present",
+                                "id": "6d2f8e7fa02b72feb1a99e9c9024397d",
+                                "passes": 0,
+                                "fails": 182,
+                                "name": "Contact Page - cache header present"
+                            }
+                        }
+                }
+            }
+    }
+}
