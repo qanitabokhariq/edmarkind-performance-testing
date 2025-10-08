@@ -65,24 +65,3 @@ Key performance thresholds are defined in `config/options.js`. Current targets:
 1. Create a new test file in `scenarios/`
 2. Import and add the test to `main.test.js`
 3. Update options if needed in `config/options.js`
-
-## 🤝 Contributing
-
-When adding new tests:
-1. Follow the existing structure
-2. Include appropriate checks and assertions
-3. Update the README if adding new endpoints
-4. Verify thresholds are appropriate
-
-## 📚 Additional Resources
-
-- [k6 Documentation](https://k6.io/docs/)
-- [Best Practices](https://k6.io/docs/testing-guides/api-load-testing/)
-- [Metrics Reference](https://k6.io/docs/using-k6/metrics/)
-
-## 📫 Support
-
-For questions about:
-- Test implementation: Review scenarios/ directory
-- Configuration: Check config/options.js
-- Results interpretation: See reports/results.json
