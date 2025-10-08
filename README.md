@@ -54,17 +54,6 @@ Each scenario validates:
    k6 run main.test.js --summary-export=./reports/results.json
    ```
 
-## 📊 Latest Test Results
-
-From the most recent run:
-- ✅ All page checks passed (1408 passes, 0 failures)
-- 📈 Response times:
-  - Average: 317.28ms
-  - p95: 531.39ms
-  - p99: 1314.07ms
-- 🔄 Total iterations: 176
-- 📦 Data received: ~106.8 MB
-
 ## 🔧 Configuration
 
 Key performance thresholds are defined in `config/options.js`. Current targets:
